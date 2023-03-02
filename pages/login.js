@@ -50,7 +50,7 @@ export default function Login() {
 
     const  hiddenElems = doc.querySelectorAll('input[type="hidden"]') // Use a GET request to get all hidden form input from the login API
 
-    // console.log('Hidden elems',hiddenElems);
+    console.log('Hidden elems',hiddenElems);
 
     for(const hiddenInput of hiddenElems) {
         fd.append(hiddenInput['name'], hiddenInput['value']); // Append the hidden input values returned from the GET request to the form data instance
