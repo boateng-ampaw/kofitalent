@@ -1,0 +1,24 @@
+.modalWrap {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 9999;
+}
+
+.PseudoClose {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.modalContent {
+    z-index: 30;
+    width: 100%;
+    max-width: 450px;
+}

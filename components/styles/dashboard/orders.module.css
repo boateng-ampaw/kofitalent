@@ -1,0 +1,12 @@
+.order:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .orderName {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        color: #000 !important;
+    }
+    
+}

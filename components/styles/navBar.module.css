@@ -1,0 +1,41 @@
+.dashboardNavMenu {
+    position: relative;
+    z-index: 1030;
+    background-color: #fff;
+}
+
+.dashboardNavWrap {
+    position: absolute;
+    top: calc(100% + 1px);
+    right: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 1030;
+    padding: 20px;
+}
+
+.dashboardNavWrap :global(a) {
+    border-color: #eaeaea;
+}
+
+.dashboardNavWrap :global(a:hover) {
+    color: #0d6efd !important;
+}
+
+.menuBG {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1023;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (min-width: 767px) {
+    
+    .dashboardNavWrap {
+        max-width: 350px;
+    }
+
+}
